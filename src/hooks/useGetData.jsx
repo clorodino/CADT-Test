@@ -12,7 +12,6 @@ const useGetData = (url) => {
 			} catch (error) {
 				console.log(error)
 			}
-			//console.log(data)
 			return data
 		}
 		getData()
